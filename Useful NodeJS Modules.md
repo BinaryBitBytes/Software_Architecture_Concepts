@@ -17,7 +17,7 @@
 >   
 >>   - **__SYNTAX__**
 >  
->>>   ``` const fs = require('fs'); //import statement in JS ```
+>>>     const fs = require('fs'); //import statement in JS
 >   
 >>  - The built-in Node.js file system module helps us store, 
 >    access, and manage data on our operating system. Commonly used 
@@ -35,14 +35,14 @@
 >>>  ###### Promise example
 >>>   ---
 >>> 
->>>>     ``` import { unlink } from 'node:fs/promises';
+>>>>      import { unlink } from 'node:fs/promises';
 >>>>      try {
 >>>>        await unlink('/tmp/hello');
 >>>>        console.log('successfully deleted /tmp/hello');
 >>>>        }
 >>>>      catch (error) {
 >>>>        console.error('there was an error:', error.message);
->>>>        } ```
+>>>>        } 
    
 ### **Path**
 ---
@@ -67,16 +67,16 @@
 >>   - **__EXAMPLES__**
 >>   ---
 >>   
->>>     ```
+>>>     
 >>>      // Importing the path module in node js
 >>>        const path = require('path');
->>>     ```
+>>>     
 >>
->>>     ``` 
+>>>     
 >>>        // basename method gives the file name from path name
 >>>        const filename = path.basename('/Users/scaler/demo_path.js');
 >>>        console.log(filename);
->>>     ```
+>>>     
 >>
 >
      
