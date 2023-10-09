@@ -1,12 +1,20 @@
 # Important Packages for a software engineer based on their project.
+---
+> **MARKDOWN REFERENCE SHEET**
+>> Here is a resource for a markdown reference sheet by [Mark Down Guide](https://www.markdownguide.org/basic-syntax/)
 
 ## Core Modules
-
+---
+>
+> - FS
+> - Path
+  
 ### **FS**
+---
 >
 > #### Reference Link
 >   
->>   -a) **__SYNTAX__**
+>>   - **__SYNTAX__**
 >  
 >>>  - ```const fs = require('fs'); //import statement in JS ```
 >   
@@ -33,6 +41,7 @@
 >>>>      ```
    
 ### **Path**
+---
 >
 >>   #### Reference Link
 >>>
@@ -62,4 +71,6 @@
 >>>        const filename = path.basename('/Users/scaler/demo_path.js');
 >>>        console.log(filename);
 >>>     ```
+>>
+>
      
