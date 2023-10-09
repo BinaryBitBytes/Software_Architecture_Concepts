@@ -7,9 +7,10 @@
 ---
 > - FS
 > - Path
+----
   
->### **FS**
->---
+> ## **FS**
+> ---
 >
 >> #### Reference Link
 >> ---
@@ -31,7 +32,7 @@
 >>>    The node:fs module enables interacting with the file system in a way
 >>>    modeled on standard POSIX functions.
 >   
->>   - **__ESM Script EXAMPLES__**
+>> #### **__ESM Script EXAMPLES__**
 >>   ---
 >> 
 >>>  ###### Promise example
@@ -45,18 +46,19 @@
 >>>>      catch (error) {
 >>>>        console.error('there was an error:', error.message);
 >>>>        } 
-** --- **   
+---
+===
 ### **Path**
 ---
 >
 >>   #### Reference Link
 >> ---
 >>> - **[Scaler.com]**(https://www.scaler.com/topics/nodejs/path-module-in-node-js/)
->
->>   - **__SYNTAX__**
->>   ---
->>>   - ```const path = require('path');```
->>>   - ```path.basename(path[, ext]) //using path```
+>>
+>>>   #### **__SYNTAX__**
+>>>   ---
+>>>>   - ```const path = require('path');```
+>>>>   - ```path.basename(path[, ext]) //using path```
 >
 >> #### Use Case
 >> ---      
@@ -70,7 +72,6 @@
 >   
 >>   - **__EXAMPLES__**
 >>   ---
->>   
 >>>     
 >>>      // Importing the path module in node js
 >>>        const path = require('path');
