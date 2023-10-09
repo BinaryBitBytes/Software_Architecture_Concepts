@@ -8,18 +8,18 @@
 > - FS
 > - Path
   
-### **FS**
----
+>### **FS**
+>---
 >
-> #### Reference Link
-> ---
-> - **[NodeJs.org]**(https://nodejs.org/api/fs.html)
->   
->>   - **__SYNTAX__**
->  
+>> #### Reference Link
+>> ---
+>>> - **[NodeJs.org]**(https://nodejs.org/api/fs.html)
+>>>   
+>> ##### **__SYNTAX__**
+>> 
 >>>     const fs = require('fs'); //import statement in JS
->
->> #### Use Case
+>>
+>> ##### Use Case
 >> ---   
 >>>  - The built-in Node.js file system module helps us store, 
 >>>    access, and manage data on our operating system. Commonly used 
@@ -45,7 +45,7 @@
 >>>>      catch (error) {
 >>>>        console.error('there was an error:', error.message);
 >>>>        } 
-   
+** --- **   
 ### **Path**
 ---
 >
