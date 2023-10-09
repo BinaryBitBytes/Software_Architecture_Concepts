@@ -1,13 +1,14 @@
 # Important Packages for a software engineer based on their project.
 ---
+
 > **MARKDOWN REFERENCE SHEET**
 >> Here is a resource for a markdown reference sheet by [Mark Down Guide](https://www.markdownguide.org/basic-syntax/)
 
-## Core Modules
----
-> - FS
-> - Path
-----
+> ## Core Modules
+> ---
+>> - FS
+>> - Path
+> ----
   
 > ## **FS**
 > ---
@@ -46,10 +47,12 @@
 >>>>      catch (error) {
 >>>>        console.error('there was an error:', error.message);
 >>>>        } 
+
 ---
-===
-### **Path**
 ---
+
+> ### **Path**
+> ---
 >
 >>   #### Reference Link
 >> ---
