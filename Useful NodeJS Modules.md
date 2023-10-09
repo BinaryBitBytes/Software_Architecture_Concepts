@@ -17,7 +17,7 @@
 >   
 >>   - **__SYNTAX__**
 >  
->>>  - ```const fs = require('fs'); //import statement in JS ```
+>>>   ``` const fs = require('fs'); //import statement in JS ```
 >   
 >>  - The built-in Node.js file system module helps us store, 
 >    access, and manage data on our operating system. Commonly used 
@@ -34,15 +34,15 @@
 >> 
 >>>  ###### Promise example
 >>>   ---
->>>>     - ```import { unlink } from 'node:fs/promises';
+>>> 
+>>>>     ``` import { unlink } from 'node:fs/promises';
 >>>>      try {
 >>>>        await unlink('/tmp/hello');
 >>>>        console.log('successfully deleted /tmp/hello');
 >>>>        }
 >>>>      catch (error) {
 >>>>        console.error('there was an error:', error.message);
->>>>        }
->>>>      ```
+>>>>        } ```
    
 ### **Path**
 ---
