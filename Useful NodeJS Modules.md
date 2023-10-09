@@ -62,8 +62,8 @@
 >>
 >>>   #### **__SYNTAX__**
 >>>   ---
->>>>   - ```const path = require('path');```
->>>>   - ```path.basename(path[, ext]) //using path```
+>>>>      const path = require('path'); //importing path in JS
+>>>>      path.basename(path[, ext]) //using path
 >
 >> #### Use Case
 >> ---      
