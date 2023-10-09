@@ -5,7 +5,6 @@
 
 ## Core Modules
 ---
->
 > - FS
 > - Path
   
@@ -13,6 +12,8 @@
 ---
 >
 > #### Reference Link
+> ---
+> - **[NodeJs.org]**(https://nodejs.org/api/fs.html)
 >   
 >>   - **__SYNTAX__**
 >  
@@ -29,7 +30,10 @@
 >    modeled on standard POSIX functions.
 >   
 >>   - **__ESM Script EXAMPLES__**
+>>   ---
+>> 
 >>>  ###### Promise example
+>>>   ---
 >>>>     - ```import { unlink } from 'node:fs/promises';
 >>>>      try {
 >>>>        await unlink('/tmp/hello');
@@ -44,10 +48,11 @@
 ---
 >
 >>   #### Reference Link
->>>
+>> ---
+>>> - **[Scaler.com]**(https://www.scaler.com/topics/nodejs/path-module-in-node-js/)
 >
 >>   - **__SYNTAX__**
->>   
+>>   ---
 >>>   - ```const path = require('path');```
 >>>   - ```path.basename(path[, ext]) //using path```
 >   
@@ -60,6 +65,7 @@
 >>    and directory-related operations differently.
 >   
 >>   - **__EXAMPLES__**
+>>   ---
 >>   
 >>>     ```
 >>>      // Importing the path module in node js
